@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File 'Lighting.hlsl' and 1 more item(s)" />
-    <option name="defaultScopeName" value="File 'Lighting.hlsl' and 1 more item(s)" />
-    <option name="SEARCH_SCOPE" value="File 'Lighting.hlsl' and 1 more item(s)" />
+    <option name="customScope" value="Solution" />
+    <option name="defaultScopeName" value="Solution" />
+    <option name="SEARCH_SCOPE" value="Solution" />
   </component>
 </application>
