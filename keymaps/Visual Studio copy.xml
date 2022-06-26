@@ -1,27 +1,26 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
   <action id="Arrangement.Rule.Edit" />
+  <action id="BookmarksView.Rename" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="alt back_slash" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
-  <action id="GotoNextBookmark">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="n" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl n" />
+  <action id="GotoNextBookmarkInEditor">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
-  <action id="GotoPreviousBookmark">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="p" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl p" />
+  <action id="GotoPreviousBookmarkInEditor">
     <keyboard-shortcut first-keystroke="shift f2" />
   </action>
   <action id="Print" />
   <action id="ShowNavBar" />
+  <action id="Table-startEditing" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="k" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="ctrl f2" />
   </action>
+  <action id="Tree-startEditing" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
 </keymap>
