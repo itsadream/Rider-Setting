@@ -12,6 +12,9 @@
   <action id="GotoPreviousBookmarkInEditor">
     <keyboard-shortcut first-keystroke="shift f2" />
   </action>
+  <action id="PlaybackLastMacro">
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="ctrl p" />
+  </action>
   <action id="Print" />
   <action id="ShowNavBar" />
   <action id="Table-startEditing" />
