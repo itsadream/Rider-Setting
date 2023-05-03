@@ -1,10 +1,12 @@
 <keymap version="1" name="Visual Studio copy 1" parent="Visual Studio">
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl right" />
-    <keyboard-shortcut first-keystroke="meta right" />
+    <keyboard-shortcut first-keystroke="alt right" />
   </action>
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="ctrl left" />
-    <keyboard-shortcut first-keystroke="meta left" />
+    <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="NextTab" />
+  <action id="PreviousTab" />
 </keymap>
