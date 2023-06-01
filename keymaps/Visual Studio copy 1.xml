@@ -1,4 +1,5 @@
 <keymap version="1" name="Visual Studio copy 1" parent="Visual Studio">
+  <action id="ChangesView.SetDefault" />
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="alt right" />
