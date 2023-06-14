@@ -8,6 +8,21 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="n" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="GotoPreviousBookmark">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="shift f2" />
+  </action>
   <action id="NextTab" />
   <action id="PreviousTab" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="k" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+  </action>
 </keymap>
