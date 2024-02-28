@@ -1,5 +1,11 @@
 <keymap version="1" name="Visual Studio copy 1" parent="Visual Studio">
+  <action id="Arrangement.Rule.Edit" />
+  <action id="BookmarksView.Rename" />
   <action id="ChangesView.SetDefault" />
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="alt right" />
@@ -9,21 +15,21 @@
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
   <action id="FindWordAtCaret" />
-  <action id="GotoNextBookmark">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="n" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl n" />
+  <action id="GotoNextBookmarkInEditor">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
-  <action id="GotoPreviousBookmark">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="p" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl p" />
+  <action id="GotoPreviousBookmarkInEditor">
     <keyboard-shortcut first-keystroke="shift f2" />
   </action>
   <action id="NextTab" />
   <action id="PreviousTab" />
+  <action id="Table-startEditing" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="k" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="ctrl f3" />
   </action>
+  <action id="Tree-startEditing" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
 </keymap>
