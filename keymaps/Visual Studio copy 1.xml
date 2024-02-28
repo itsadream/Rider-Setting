@@ -8,6 +8,7 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="FindWordAtCaret" />
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="n" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl n" />
@@ -23,6 +24,6 @@
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="k" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl k" />
-    <keyboard-shortcut first-keystroke="ctrl f2" />
+    <keyboard-shortcut first-keystroke="ctrl f3" />
   </action>
 </keymap>
